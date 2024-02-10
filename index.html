@@ -1,6 +1,12 @@
-<!DOCTYPE html>
+
+    
+          
+      <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bahianita&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Entrega</title>
@@ -16,16 +22,19 @@
             height: 100vh;
             margin: 0;
             background-image: url('./mapa.jpg');
-            background-size: cover;
-            background-position: center;
+            
+            
         }
 
         form {
             border-radius: 2%;
             padding: 10px;
-            background-color: #007bff;
+            background-image: url('./Design sem nome.png');
+            background-repeat: no-repeat;
+            background-size: cover;
             max-width: 400px;
             width: 90%;
+            height: 275px;
         }
 
         label {
@@ -60,9 +69,15 @@
         }
 
         .logo {
-            margin-top: 10px;
-            width: 100%; /* Alterado para responsivo */
-            max-width: 424px; /* Defina a largura máxima da imagem */
+            margin-top: 2px;
+            background-color: #007bff;
+            height: auto;
+            width: 100%; /* Para ocupar toda a largura do formulário */
+            max-width: 420px; /* Defina a largura máxima */
+            border-radius: 2%;
+            text-align: center;
+            font-family: 'Bahianita', sans-serif;
+            font-size: 2.3rem;
         }
 
         /* Estilos para telas menores que 600px */
@@ -81,7 +96,9 @@
     </style>
 </head>
 <body>
-    <div class="logo"> <img src="./Design sem nome (1).png" alt=""></div>
+    <div class="logo">
+        <logo1 class="logo1">Valores centro bairro/bairro centro</logo1>
+    </div>
     <form id="deliveryForm">
         <label for="pickup">Ponto de Coleta:</label>
         <input type="text" id="pickup" name="pickup" placeholder="Informe ponto de coleta" required>
@@ -94,10 +111,6 @@
     </form>
     
     <script src="./java.js"></script>
-
 </body>
 </html>
-
-
-
 
