@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="/css/style.css">
     <style>
         /* Estilos para todos os tamanhos de tela */
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }    
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -70,7 +76,7 @@
             background-color: #007bff;
             height: auto;
             width: 100%; /* Para ocupar toda a largura do formulário */
-            max-width: 420px; /* Defina a largura máxima */
+            max-width: 400px; /* Defina a largura máxima */
             border-radius: 2%;
             text-align: center;
             font-family: 'Bahianita', sans-serif;
@@ -84,6 +90,12 @@
             }
         }
 
+        @media (max-width: 600px) {
+            .logo {
+                max-width: 300px;
+            }
+        }
+
         /* Estilos para telas menores que 400px */
         @media (max-width: 400px) {
             form {
@@ -93,7 +105,9 @@
     </style>
 </head>
 <body>
-  
+    <div class="logo">
+        <logo1 class="logo1">Valores centro bairro/bairro centro</logo1>
+    </div>
     <form id="deliveryForm">
         <label for="pickup">Ponto de Coleta:</label>
         <input type="text" id="pickup" name="pickup" placeholder="Informe ponto de coleta" required>
