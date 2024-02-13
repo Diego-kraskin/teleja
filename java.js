@@ -40,7 +40,9 @@
     "jardim botânico": 13.0,
     "belém novo": 18.0,
     "cristal": 13.0,
-    "Niteroi canoas": 15.0,
+    "Ipanema": 30.0,
+    "canoas niteroi": 20.0,
+    "centro canoas": 30.0,
     "centro canoas": 20.0,
     "centro canoas": 20.0,
     "centro canoas": 20.0,
@@ -50,8 +52,7 @@
     "centro canoas": 20.0,
     "centro canoas": 20.0,
     "centro canoas": 20.0,
-    "centro canoas": 20.0,
-    "centro canoas": 20.0,
+    "Restinga": 50.0,
     // Adicione mais bairros e valores conforme necessário
 };
 
