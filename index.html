@@ -11,7 +11,11 @@
     <style>
         /* Estilos para todos os tamanhos de tela */
 
-       
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }    
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -65,11 +69,12 @@
             font-size: 18px;
             font-weight: bold;
             text-align: center;
-            color: #fff;
+            color: #060606;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .logo {
+            color: white;
             margin-top: 2px;
             background-color: #007bff;
             height: auto;
@@ -77,8 +82,8 @@
             max-width: 400px; /* Defina a largura máxima */
             border-radius: 2%;
             text-align: center;
-            font-family: 'Bahianita', sans-serif;
-            font-size: 2.3rem;
+            font-family: fantasy;
+            font-size: 1.3rem;
         }
 
         /* Estilos para telas menores que 600px */
@@ -93,18 +98,30 @@
                 max-width: 300px;
             }
         }
-
+  @media (max-width: 400px) {
+            form {
+                max-width: 250px;
+            }
+        }
         /* Estilos para telas menores que 400px */
         @media (max-width: 400px) {
             form {
                 max-width: 250px;
             }
         }
+
+        @media (max-width: 400px) {
+            form {
+                max-width: 350px;
+            }
+        }
+
+    
     </style>
 </head>
 <body>
     <div class="logo">
-        <logo1 class="logo1">Valores centro bairro/bairro centro</logo1>
+        <logo1 class="logo1">Valores centro bairro - Bairro centro</logo1>
     </div>
     <form id="deliveryForm">
         <label for="pickup">Ponto de Coleta:</label>
